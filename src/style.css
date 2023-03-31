@@ -1,0 +1,100 @@
+.ant-carousel {
+    display: flex;
+    text-align: center;
+    line-height: 10px;
+    /* background: #364d79; */
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+}
+.ant-carousel .slick-dots {
+    /* position: absolute; */
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+}
+
+/* .ant-carousel .slick-slide h3 {
+    color: #fff;
+} */
+.ant-carousel .slick-dots .li {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.ant-carousel .slick-dots .li .button {
+    border-radius: 100%;
+    display: block;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    background: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.3;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.ant-carousel .slick-dots .li .slick-active .button {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: red;
+}
+.button-slick{
+    display: flex;
+    align-items: center;
+}
+
+.slick-prev, .slick-next {
+    top: 50%;
+    appearance: none;
+    margin-top: -10px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: transparent;
+    outline: none;
+    z-index: 100;
+}
+.slick-next {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #007bff;
+    right: 0;
+}
+.slick-prev {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #007bff transparent transparent;
+    left: 0;
+}
+.title-list{
+    background: rgb(0, 204, 155);
+    color: white;
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    border-radius:6px 6px 0 0
+}
+.body-list{
+    background: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid #d9d9d9;
+    border-radius: 0 0 6px 6px;
+}
